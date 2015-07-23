@@ -1,0 +1,10 @@
+zookeeper:
+  build: ./../zookeeper/.
+  ports:
+   - "2888:2888"
+   - "3888:3888"
+
+solr:
+   build: ./../solr/.
+   ports:
+   	- "8983:8983"
